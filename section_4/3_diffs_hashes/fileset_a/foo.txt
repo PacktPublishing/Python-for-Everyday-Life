@@ -1,0 +1,4 @@
+This is file foo!
+It has a lot of lines...
+Well, maybe not so many.
+And, also, an end!
