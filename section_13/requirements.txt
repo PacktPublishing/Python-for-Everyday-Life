@@ -1,0 +1,2 @@
+django-oauth-toolkit==1.0.0
+httpie==0.9.9

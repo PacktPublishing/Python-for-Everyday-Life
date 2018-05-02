@@ -1,0 +1,5 @@
+# GET public CVs without an API Token
+http --check-status http://localhost:8000/cvs/public
+
+# ... though you can also pass one
+http --check-status http://localhost:8000/cvs/public Authorization:6913e309239a4e5a9c1f22eed1314412

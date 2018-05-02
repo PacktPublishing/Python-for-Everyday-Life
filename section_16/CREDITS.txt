@@ -1,0 +1,10 @@
+# Cryptocompare API Disclaimer
+The code in this section explains how to retrieve data from the Cryptocompare API
+(https://min-api.cryptocompare.com) for educational purposes only.
+The Cryptocompare API is licensed under the
+
+    Creative Commons - Attribution Non-Commercial license (https://creativecommons.org/licenses/by-nc/3.0/)
+
+This video course does not bundle any data coming from the Cryptocompare API
+
+EOF

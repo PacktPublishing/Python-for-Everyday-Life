@@ -1,0 +1,17 @@
+# GET protected CVs list without an API Token returns a 401 error
+http --check-status http://localhost:8000/cvs
+
+# GET protected CVs list with invalid API Token returns a 400 error
+http --check-status http://localhost:8000/cvs Authorization:too_short_string
+
+# GET protected CVs list with valid API Token (but not registered) returns a 401 error
+http --check-status http://localhost:8000/cvs Authorization:7777e309239a4e5a9c1f22eed1313333
+
+# GET protected CVs list with an API Token is OK
+http --check-status http://localhost:8000/cvs Authorization:6913e309239a4e5a9c1f22eed1314412
+
+# GET a specific protected CV
+http --check-status http://localhost:8000/cvs/2 Authorization:6913e309239a4e5a9c1f22eed1314412
+
+# GET a specific protected CV belonging to someone else
+http --check-status http://localhost:8000/cvs/10 Authorization:6913e309239a4e5a9c1f22eed1314412

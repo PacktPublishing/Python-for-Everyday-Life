@@ -1,0 +1,5 @@
+# Create a new protected CV with wrong Content-Type
+http POST --check-status http://localhost:8000/cvs/public
+
+# Create a new protected CV
+http POST http://localhost:8000/cvs/public Authorization:6913e309239a4e5a9c1f22eed1314412 < new_cv.json

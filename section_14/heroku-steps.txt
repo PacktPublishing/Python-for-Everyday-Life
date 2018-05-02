@@ -1,0 +1,28 @@
+# register the app
+heroku create cryptospokesman --buildpack heroku/python
+
+# locally test run your app
+heroku local
+
+# inside your code folder, create an empty git repo
+git init
+
+# then configure the remote Heroku Git upstream
+heroku git:remote -a cryptospokesman
+
+# add your code and commit to Git
+git add -A
+git commit -m “commit message”
+
+# set the configuration variables that the app needs in order to run
+heroku config:add PAGE_ACCESS_TOKEN=EAACIE5f9hqYBAPHsSdZBRBtsZCZAbS0pfzr7wkUYJofZCZAYHyaD17RJ4VXWPqOWOxkSfYTfuOwLh8izfAU24Fp0xlNahgIf6AAigutncjcjtxyDwiCJkoUif5rZA0tCZCUK2QYZALv416aTXKMtMQ6dTh1BdVAK47y4J9p3R6x8QAZDZD
+heroku config:add VERIFY_TOKEN=wovub3v0283v2v
+
+# push to the upstream to release
+git push heroku master
+
+# check your app on the publicly reserved URL you got before
+heroku open
+
+# check app logs
+heroku logs -t
