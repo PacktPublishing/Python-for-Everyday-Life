@@ -12,10 +12,11 @@ By the end of this course you will have learned how to proficiently write struct
 <H2>What You Will Learn</H2>
 <DIV class=book-info-will-learn-text>
 <UL>
-<LI>Remove unwanted code such as the password or product key tests, and add Trojan code 
-<LI>Analyze simple Windows executable files and modify them using the Immunity Debugger 
-<LI>Write Python Scripts to perform exploits 
-<LI>Analyze simple Linux executable files and modify them using the gdb debugger </LI></UL></DIV>
+<LI>Automate the execution of lots of common everyday life tasks using Python 
+<LI>Write Python code proficiently in a structured fashion 
+<LI>Identify the boundaries of a coding problem and spot the best libraries to solve it
+<LI>Design and Implement a wide range of applications from simple stand-alone one-liner scripts to complex web applications depending on external services
+<LI>Manipulate efficiently and visualize data as a way to make informed decisions </LI></UL></DIV>
 
 ## Instructions and Navigation
 ### Assumed Knowledge
