@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1 class="mt-5">This is a dynamic web page</h1>
+    <p class="lead">Current server time in milliseconds: <b>{{ server_time }}</b></p>
+    <p class="lead">These HTTP headers were sent along with your request:</p>
+    <ul>
+    {% for key, value in headers.items() %}
+        <li><code>{{ key }}</code>&nbsp;-->&nbsp;<code>{{ value }}</code></li>
+    {% endfor %}
+    </ul>
+{% endblock %}

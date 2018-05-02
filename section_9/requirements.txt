@@ -1,0 +1,7 @@
+dropbox==8.5.1
+evernote3==1.25.12
+feedparser==5.2.1
+gmail==0.6.3
+pyfcm==1.4.3
+twilio==6.10
+twython==3.6.0

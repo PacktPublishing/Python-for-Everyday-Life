@@ -1,0 +1,4 @@
+face-recognition==1.0.0
+Pillow==4.3.0
+pyscreenshot==0.4.2
+zbarlight==1.2.0

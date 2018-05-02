@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<composers>
+  <composer>
+    <name>franz</name>
+    <surname>liszt</surname>
+    <country>HU</country>
+    <email>franz.liszt@gmail.com</email>
+  </composer>
+  <composer>
+    <name>johann sebastian</name>
+    <surname>bach</surname>
+    <country>DE</country>
+    <email>jsbach@yahoo.de</email>
+  </composer>
+  <composer>
+    <name>giuseppe</name>
+    <surname>verdi</surname>
+    <country>IT</country>
+    <email>giuseppeverdi@hotmail.com</email>
+  </composer>
+  <composer>
+    <name>david</name>
+    <surname>gilmour</surname>
+    <country>GB</country>
+    <email>dgilmour@me.com</email>
+  </composer>
+</composers>

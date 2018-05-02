@@ -1,0 +1,24 @@
+# Image Credits
+The following images
+
+  - images/meeting.jpg
+  - images/tiger.jpg
+
+are sourced from Pixabay (https://pixabay.com) and are licensed under
+the Creative Commons CC0 license:
+
+    https://creativecommons.org/publicdomain/zero/1.0/deed.en
+
+
+# Font Credits
+The following fonts
+
+  - fonts/arvo.ttf
+
+are sourced from Google Fonts (https://fonts.google.com) and are licensed under
+the Open Font license:
+
+    http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web
+
+
+EOF

@@ -1,0 +1,16 @@
+- name: franz
+  surname: liszt
+  country: HU
+  email: franz.liszt@gmail.com
+- name: johann sebastian
+  surname: bach
+  country: DE
+  email: jsbach@yahoo.de
+- name: giuseppe
+  surname: verdi
+  country: IT
+  email: giuseppeverdi@hotmail.com
+- name: david
+  surname: gilmour
+  country: GB
+  email: dgilmour@me.com
