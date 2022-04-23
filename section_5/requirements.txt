@@ -1,5 +1,5 @@
 lxml==4.6.5
 openpyxl==2.4.9
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 python-docx==0.8.6
 PyYAML==5.4
